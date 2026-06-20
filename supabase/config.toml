@@ -1,0 +1,7 @@
+project_id = "psaknkusyyztbethafov"
+
+[functions.og-image]
+verify_jwt = false
+
+[functions.analyze-pipeline]
+verify_jwt = false

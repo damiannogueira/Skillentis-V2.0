@@ -1,0 +1,13 @@
+# Skillentis
+
+> Developer Evolution Platform. Transform GitHub history into a Developer Evolution Profile that proves growth over time — not just current skill.
+
+Skillentis analyzes a developer's public GitHub activity and produces a 0–100 Codexa Index based on Consistency, Architecture, Project Scope, Collaboration, and Practices. It generates a public profile, an evolution timeline, badges, and PDF/share cards.
+
+## Pages
+
+- [Home](/): Hero, product overview, demo, leaderboard widget, and CTA to analyze a GitHub user.
+- [Pricing](/pricing): Free, Pro, and Pro Recruiter plans with feature comparison.
+- [Leaderboard](/leaderboard): Top analyzed GitHub developers ranked by activity.
+- [Compare](/compare): Side-by-side comparison of two developers (Pro feature).
+- [Example profile](/profile/torvalds): Public Developer Evolution Profile for Linus Torvalds.

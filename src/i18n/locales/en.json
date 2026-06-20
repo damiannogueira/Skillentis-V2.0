@@ -1,0 +1,612 @@
+{
+  "common": {
+    "back": "Back",
+    "backHome": "Back to home",
+    "loading": "Loading...",
+    "error": "Error",
+    "close": "Close",
+    "save": "Save",
+    "saving": "Saving...",
+    "saved": "Saved",
+    "comingSoon": "Coming soon",
+    "analyses": "analyses",
+    "years": "years",
+    "repos": "repos"
+  },
+  "errors": {
+    "invalidUsername": "Invalid GitHub username. Only letters, numbers and hyphens (no dots, no spaces), max 39 chars."
+  },
+  "notifications": {
+    "bell": {
+      "title": "Notifications",
+      "empty": "No notifications yet",
+      "markAllRead": "Mark all as read"
+    },
+    "analysisComplete": "Analysis of @{{username}} ready",
+    "analysisFailed": "Analysis of @{{username}} failed",
+    "viewAction": "View"
+  },
+  "nav": {
+    "features": "Features",
+    "compare": "Compare",
+    "ranking": "Ranking",
+    "demo": "Demo",
+    "pricing": "Pricing",
+    "settings": "Settings",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "install": "Install",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "Developer Evolution Platform",
+    "titleA": "GitHub shows activity.",
+    "titleB": "Skillentis reveals evolution.",
+    "subtitle": "See how a developer evolves — not just what they know today.",
+    "placeholder": "Enter GitHub username",
+    "ctaSignIn": "Sign in & Analyze",
+    "ctaAnalyze": "Analyze",
+    "usageWithLimit": "{{used}}/{{limit}} analyses used this month · Free plan",
+    "usageUnlimited": "Unlimited analyses · Pro plan",
+    "usageGuest": "Sign up free · 1 analysis/month · Public repos"
+  },
+  "home": {
+    "recentAnalysis": {
+      "title": "Your recent analysis",
+      "subtitle": "Pick up where you left off or reopen a profile you've already analyzed.",
+      "yourProfile": "You",
+      "viewBtn": "View analysis",
+      "limitTitle": "You've used your monthly analysis",
+      "limitSubtitle": "Upgrade to Pro for unlimited analyses, comparisons and public profiles.",
+      "upgradeCta": "Upgrade to Pro",
+      "delete": "Remove from history",
+      "deleteTitle": "Remove this analysis?",
+      "deleteDescription": "@{{username}} will be removed from your history. This does not refund your monthly quota.",
+      "deleteConfirm": "Remove",
+      "deleteCancel": "Cancel",
+      "deleteSuccess": "Analysis removed from history",
+      "deleteError": "Couldn't remove it. Please try again."
+    },
+    "analyzeYourself": {
+      "badge": "Start here",
+      "title": "Analyze your own profile @{{username}}",
+      "subtitle": "Discover your Codexa Index, evolution and metrics in under a minute.",
+      "cta": "Analyze my profile",
+      "connectTitle": "Connect your GitHub to get started",
+      "connectSubtitle": "Add your GitHub username in Settings to analyze your own profile in one click.",
+      "connectCta": "Go to Settings"
+    }
+  },
+  "onboarding": {
+    "skip": "Skip",
+    "back": "Back",
+    "next": "Next",
+    "ctaAnalyze": "Analyze my profile",
+    "ctaConnect": "Connect GitHub",
+    "s1": {
+      "title": "Welcome to Skillentis",
+      "body": "Visualize the real evolution of any GitHub developer. We'll show you in 4 steps how to get the most out of it."
+    },
+    "s2": {
+      "title": "Connect your GitHub",
+      "body": "Add your GitHub username in Settings to analyze your own profile in one click and unlock badges."
+    },
+    "s3": {
+      "title": "Explore the leaderboard",
+      "body": "Discover the developers with the highest Codexa Index and check your position on the global ranking."
+    },
+    "s4": {
+      "title": "Compare developers",
+      "body": "Pick two profiles and see their metrics and evolution side by side. Perfect for recruiters and tech teams."
+    },
+    "s5": {
+      "title": "Share your evolution",
+      "body": "Generate your public Evolution Card and share it on LinkedIn, Twitter or anywhere. Your trajectory speaks for you."
+    }
+  },
+  "problem": {
+    "titleA": "The problem with",
+    "titleB": "traditional evaluation",
+    "subtitle": "Hiring still relies on snapshots. But real talent is visible in the trajectory.",
+    "items": {
+      "resumes": {
+        "title": "Resumes lie",
+        "description": "A CV shows what someone claims. GitHub shows what someone actually built — but nobody reads the history."
+      },
+      "challenges": {
+        "title": "Coding challenges are snapshots",
+        "description": "A 2-hour test measures performance under pressure, not years of consistent learning and growth."
+      },
+      "scores": {
+        "title": "Scores create distrust",
+        "description": "“Why should I trust that score?” — Numbers without context feel arbitrary."
+      },
+      "talent": {
+        "title": "Talent is trajectory",
+        "description": "The best signal of a great developer isn't what they know today — it's how fast they learn and evolve."
+      }
+    }
+  },
+  "solution": {
+    "titleA": "The solution:",
+    "titleB": "Developer Evolution Profile",
+    "subtitle": "Skillentis transforms years of GitHub activity into a structured evolution record. Not a judgment — evidence.",
+    "flow": {
+      "data": "GitHub Data",
+      "engine": "Analysis Engine",
+      "profile": "Evolution Profile"
+    },
+    "signals": {
+      "consistency": {
+        "label": "Consistency",
+        "desc": "Sustained contributions over time"
+      },
+      "architecture": {
+        "label": "Architecture",
+        "desc": "Repo complexity evolution"
+      },
+      "scope": {
+        "label": "Project Scope",
+        "desc": "Breadth and depth of work"
+      },
+      "collaboration": {
+        "label": "Collaboration",
+        "desc": "PRs, reviews, teamwork"
+      },
+      "practices": {
+        "label": "Practices",
+        "desc": "CI/CD, testing, documentation"
+      }
+    }
+  },
+  "features": {
+    "titleA": "Not a score.",
+    "titleB": "An evolution record.",
+    "subtitle": "Skillentis analyzes public GitHub data to detect real signals of professional development.",
+    "items": {
+      "timeline": {
+        "title": "Evolution Timeline",
+        "description": "See how skills and practices evolved year over year through repository history."
+      },
+      "growth": {
+        "title": "Growth Metrics",
+        "description": "Track consistency, architecture complexity, project scope, and collaboration patterns."
+      },
+      "consistency": {
+        "title": "Consistency Signals",
+        "description": "Detect contribution patterns and sustained development activity over time."
+      },
+      "complexity": {
+        "title": "Repo Complexity",
+        "description": "Analyze how repository architecture evolved from simple scripts to complex systems."
+      },
+      "collaboration": {
+        "title": "Collaboration Patterns",
+        "description": "Understand teamwork signals through PRs, reviews, and multi-contributor projects."
+      },
+      "codexa": {
+        "title": "Codexa Index",
+        "description": "A summary metric based on years of repository evolution — not a snapshot judgment."
+      }
+    }
+  },
+  "evolutionPreview": {
+    "titleA": "Visualize",
+    "titleB": "developer growth",
+    "subtitle": "Evolution is visible when you look at the trajectory.",
+    "header": "Developer Evolution Timeline",
+    "headerSub": "Based on 5 years of GitHub activity",
+    "years": {
+      "2020": "First repositories",
+      "2021": "Consistent commits",
+      "2022": "Multi-project work",
+      "2023": "Architecture patterns",
+      "2024": "Production practices",
+      "2025": "System-level thinking"
+    }
+  },
+  "publicProfileSection": {
+    "titleA": "Your public",
+    "titleB": "developer profile",
+    "description": "Every developer gets a shareable profile page at {{url}}. It's your evolution story — visible to anyone.",
+    "items": {
+      "share": "Share on LinkedIn, Twitter, or WhatsApp with one click",
+      "linkedin": "Add it to your CV, portfolio, or GitHub README",
+      "download": "Download as PNG or PDF to use anywhere",
+      "public": "Public URL — no login required for viewers"
+    },
+    "preview": {
+      "name": "Linus Torvalds",
+      "meta": "@torvalds · 7 repos · 15 years",
+      "codexa": "Codexa Index"
+    }
+  },
+  "codexa": {
+    "titleA": "The",
+    "titleB": "Codexa Index",
+    "intro": "A single number that summarizes years of developer evolution. Not a judgment — a weighted synthesis of real growth signals.",
+    "summary": "The Codexa Index is always secondary. The story matters more than the number.",
+    "label": "Codexa Index",
+    "basedOn": "Based on 16 years of repository evolution",
+    "components": {
+      "consistency": {
+        "label": "Consistency",
+        "desc": "Commit frequency, maintained repos, longevity"
+      },
+      "evolution": {
+        "label": "Project Evolution",
+        "desc": "Stars, maintained projects, year spread"
+      },
+      "architecture": {
+        "label": "Architecture",
+        "desc": "Language diversity, repo complexity"
+      },
+      "collaboration": {
+        "label": "Collaboration",
+        "desc": "PRs, reviews, forks, issue discussion"
+      },
+      "practices": {
+        "label": "Practices",
+        "desc": "Documentation, topics, CI/CD signals"
+      }
+    }
+  },
+  "evolutionCard": {
+    "titleA": "Your",
+    "titleB": "Evolution Card",
+    "subtitle": "Share your growth story on LinkedIn, your CV, or GitHub README.",
+    "linuxCreator": "Linux Creator",
+    "metrics": {
+      "consistency": "Consistency",
+      "architecture": "Architecture Growth",
+      "evolution": "Project Evolution",
+      "collaboration": "Collaboration"
+    },
+    "codexa": "Codexa Index",
+    "footer": "Based on 3 years of GitHub activity · skillentis.app"
+  },
+  "stats": {
+    "badge": "Social proof",
+    "title": "The community is already growing",
+    "totalAnalyses": "Analyses run",
+    "developers": "Developers analyzed",
+    "thisWeek": "This week"
+  },
+  "topDevelopers": {
+    "trending": "Trending",
+    "title": "Top 5 Developers",
+    "subtitle": "The most analyzed profiles on Skillentis",
+    "empty": "No developers analyzed yet",
+    "viewFull": "View full ranking",
+    "youBadge": "You"
+  },
+  "cta": {
+    "titleA": "Analyze your",
+    "titleB": "GitHub evolution",
+    "subtitle": "Enter your GitHub username and see your growth story.",
+    "footerAuth": "Public repos · Evolution dashboard",
+    "footerGuest": "Sign up free · 1 analysis/month"
+  },
+  "footer": {
+    "tagline": "Proof of technical growth."
+  },
+  "auth": {
+    "back": "Back",
+    "login": "Sign in",
+    "signup": "Create account",
+    "forgot": "Recover password",
+    "loginSubtitle": "Sign in to your account",
+    "signupSubtitle": "Create your free account",
+    "forgotSubtitle": "Recover your password",
+    "email": "Email",
+    "emailPlaceholder": "you@email.com",
+    "password": "Password",
+    "passwordPlaceholder": "••••••••",
+    "passwordMin": "Min 8 characters",
+    "confirmPassword": "Confirm password",
+    "confirmPlaceholder": "Repeat your password",
+    "forgotLink": "Forgot your password?",
+    "sendLink": "Send link",
+    "noAccount": "Don't have an account?",
+    "signupFree": "Sign up free",
+    "haveAccount": "Already have an account?",
+    "loginAction": "Sign in",
+    "freePlan": "Free plan includes:",
+    "freeIncludes1": "1 GitHub analysis per month",
+    "freeIncludes2": "Basic evolution dashboard",
+    "upgradeNote": "Upgrade to Pro for unlimited analyses, comparison and public profile",
+    "verifyTitle": "Verify your email",
+    "emailSentTitle": "Email sent",
+    "verifyDesc": "We've sent a confirmation link to your inbox. Verify your email to activate your account.",
+    "forgotDesc": "We sent you a link to reset your password.",
+    "backToLogin": "Back to login",
+    "errors": {
+      "loginTitle": "Sign-in error",
+      "signupTitle": "Sign-up error",
+      "weakPassword": "Weak password",
+      "weakPasswordDesc": "Min 8 characters",
+      "passwordsMismatch": "Passwords don't match"
+    }
+  },
+  "resetPassword": {
+    "title": "New password",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm password",
+    "passwordPlaceholder": "Min 8 characters",
+    "confirmPlaceholder": "Repeat your password",
+    "submit": "Update password",
+    "invalidLink": "Invalid or expired link.",
+    "weakPassword": "Weak password",
+    "weakDesc": "Min 8 characters",
+    "mismatch": "Passwords don't match",
+    "updated": "Password updated"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Connect your GitHub account to be highlighted in the ranking",
+    "githubLabel": "GitHub username",
+    "placeholder": "e.g. torvalds",
+    "hint": "Your position will be highlighted in the leaderboard if you've been analyzed.",
+    "savedToast": "GitHub username saved",
+    "errorToast": "Could not save",
+    "myAnalyses": "My recent analyses",
+    "myAnalysesEmpty": "You haven't analyzed any profile yet.",
+    "viewAnalysis": "View analysis",
+    "privacy": {
+      "title": "Privacy",
+      "publicProfile": "Public profile",
+      "publicProfileDesc": "Let anyone view your analysis at {{url}}. Turn off to hide it.",
+      "urlLabel": "Your public URL",
+      "copyUrl": "Copy URL",
+      "openProfile": "Open profile",
+      "urlCopied": "URL copied to clipboard",
+      "needsGithub": "Connect your GitHub username above to enable your public profile.",
+      "savedPublic": "Public profile enabled",
+      "savedPrivate": "Profile set to private",
+      "saveError": "Couldn't update privacy"
+    }
+  },
+  "badges": {
+    "title": "Achievements",
+    "yourBadges": "Your achievements",
+    "userBadges": "Unlocked achievements",
+    "unlocked": "New achievement unlocked!",
+    "noBadges": "No achievements yet. Start by analyzing a profile!"
+  },
+  "leaderboard": {
+    "title": "Top Developers",
+    "subtitle": "The most analyzed GitHub profiles on the platform",
+    "badge": "Live ranking",
+    "periods": {
+      "week": "Last week",
+      "month": "Last month",
+      "all": "All time"
+    },
+    "empty": "No data yet",
+    "emptyHint": "Analyze a profile to start the ranking",
+    "yourPosition": "Your position:",
+    "withAnalyses": "with {{count}} analyses",
+    "notInRanking": "You're not in the ranking yet. Get analyzed!",
+    "youBadge": "You"
+  },
+  "compare": {
+    "title": "Compare Evolution",
+    "badge": "Developer Comparison",
+    "subtitle": "Enter two GitHub profiles to compare their evolution side by side.",
+    "developer": "Developer",
+    "analyzing": "Analyzing...",
+    "skillsRadar": "Skills Radar",
+    "topLanguages": "Top Languages",
+    "codexaDelta": "Codexa Δ",
+    "proOnly": "Pro Feature",
+    "proDesc": "Side-by-side comparison is available on the Pro plan.",
+    "viewPlans": "View plans",
+    "feature": "Developer comparison",
+    "metrics": {
+      "consistency": "Consistency",
+      "architecture": "Architecture",
+      "scope": "Project Scope",
+      "collaboration": "Collaboration",
+      "practices": "Practices"
+    }
+  },
+  "dashboard": {
+    "queued": "Queued",
+    "analyzing": "Analyzing",
+    "processing": "Processing",
+    "finalizing": "Finalizing",
+    "retrying": "Retrying",
+    "fetching": "Fetching GitHub data and computing evolution metrics",
+    "failedTitle": "Analysis Failed",
+    "tryAnother": "Try another username",
+    "errorUserNotFound": "User not found",
+    "errorUserNotFoundDesc": "GitHub user @{{username}} doesn't exist. Check the spelling (no dots, no spaces).",
+    "errorRateLimit": "GitHub rate limit reached",
+    "errorRateLimitDesc": "GitHub is throttling requests temporarily. Please try again in a few minutes.",
+    "fixInSettings": "Fix in Settings",
+    "unknownError": "Unknown error",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied!",
+    "linkCopiedDesc": "Share your evolution profile anywhere.",
+    "export": "Export",
+    "downloadedTitle": "Card downloaded!",
+    "exportFailed": "Export failed",
+    "yourCard": "Your Evolution Card",
+    "timelineTitle": "Developer Evolution Timeline",
+    "showEarlier": "Show {{count}} earlier years",
+    "collapseTimeline": "Collapse timeline",
+    "metrics": {
+      "consistency": "Consistency",
+      "architecture": "Architecture",
+      "scope": "Project Scope",
+      "collaboration": "Collaboration",
+      "practices": "Practices"
+    },
+    "codexa": "Codexa Index",
+    "basedOn": "Based on {{years}} years",
+    "yearsOnGithub": "years on GitHub",
+    "viewPublicProfile": "View my public profile",
+    "publicProfileHint": "Share your evolution with one link"
+  },
+  "publicProfile": {
+    "loading": "Loading profile...",
+    "notFound": "Profile not found",
+    "notFoundDesc": "Could not load this profile.",
+    "discover": "Discover your evolution",
+    "fullDashboard": "Full Dashboard",
+    "yourCard": "Your Evolution Card",
+    "shareTitle": "Share your evolution",
+    "copyLink": "Copy Link",
+    "downloadPng": "Download PNG",
+    "downloadPdf": "Download PDF",
+    "discoverYours": "Discover your own developer evolution",
+    "analyzeGithub": "Analyze your GitHub",
+    "poweredBy": "Powered by Skillentis · Proof of growth, not just skill.",
+    "linkCopied": "Link copied!",
+    "linkCopiedDesc": "Share your evolution profile anywhere.",
+    "downloadedDesc": "Share it on LinkedIn, your CV, or GitHub README.",
+    "repositories": "repositories",
+    "codexa": "Codexa Index",
+    "basedOn": "Based on {{years}} years of GitHub evolution",
+    "privateTitle": "This profile is private",
+    "privateDesc": "The owner has turned off public visibility of their analysis.",
+    "watermarkText": "Generated on Skillentis",
+    "watermarkCta": "Create your free profile"
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Oops! Page not found",
+    "back": "Return to Home"
+  },
+  "upgrade": {
+    "title": "Upgrade your plan",
+    "requires": "{{feature}} requires a higher plan",
+    "perMonth": "/mo",
+    "viewPlans": "View all plans",
+    "pro": {
+      "name": "Pro",
+      "f1": "Unlimited analyses",
+      "f2": "Side-by-side comparison",
+      "f3": "Public profile",
+      "f4": "PDF/PNG export"
+    },
+    "recruiter": {
+      "name": "Recruiter",
+      "f1": "Everything in Pro",
+      "f2": "Bulk analysis",
+      "f3": "Export reports",
+      "f4": "Save candidates"
+    }
+  },
+  "pricing": {
+    "seoTitle": "Pricing — Skillentis",
+    "seoDesc": "Skillentis plans: Free, Pro and Pro Recruiter. Unlimited analyses from $9/mo with a 7-day free trial.",
+    "titleA": "Simple plans,",
+    "titleB": "real growth",
+    "subtitle": "Start free, upgrade when you need to. 7-day free trial on any monthly plan.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "save": "Save 17%",
+    "popular": "Most popular",
+    "perMonth": "/mo",
+    "perYear": "/yr",
+    "currentPlan": "Current plan",
+    "manage": "Manage subscription",
+    "startFree": "Start free",
+    "startTrial": "Try 7 days free",
+    "trialNote": "7 days free · Cancel anytime",
+    "footnote": "Secure payments processed by Paddle. Credit cards and PayPal accepted. Cancel anytime from your account.",
+    "free": {
+      "name": "Free",
+      "desc": "Discover Skillentis and analyze your first profile.",
+      "f1": "1 analysis per month",
+      "f2": "Basic evolution dashboard",
+      "f3": "Shareable public profile"
+    },
+    "pro": {
+      "name": "Pro",
+      "desc": "For developers who want to analyze and compare without limits.",
+      "f1": "Unlimited analyses",
+      "f2": "Developer comparison",
+      "f3": "PNG and PDF export",
+      "f4": "Premium badges",
+      "f5": "Priority support"
+    },
+    "recruiter": {
+      "name": "Pro Recruiter",
+      "desc": "For hiring teams evaluating tech talent at scale.",
+      "f1": "Everything in Pro",
+      "f2": "Bulk candidate analysis",
+      "f3": "Private notes and saved candidates",
+      "f4": "CSV reports export",
+      "f5": "Early access to new features"
+    }
+  },
+  "subscription": {
+    "title": "Subscription",
+    "currentPlan": "Current plan",
+    "freeDesc": "You're on the Free plan. Upgrade to Pro for unlimited analyses, comparison and more.",
+    "viewPlans": "View plans",
+    "managePortal": "Manage subscription",
+    "renewsOn": "Renews on {{date}}",
+    "endsOn": "Access until {{date}}"
+  },
+  "offline": {
+    "message": "Offline — showing cached data"
+  },
+  "installPwa": {
+    "title": "Install Skillentis",
+    "iosSubtitle": "Add the app to your home screen",
+    "defaultSubtitle": "Quicker access from your device",
+    "iosCta": "View instructions",
+    "defaultCta": "Install app",
+    "iosTitle": "Add to home screen (iOS)",
+    "iosRequired": "Safari required",
+    "step1": "Tap the <strong>Share</strong> button in Safari's bottom bar",
+    "step2": "Scroll and tap <strong>“Add to Home Screen”</strong>",
+    "step3": "Tap <strong>Add</strong> in the top right corner",
+    "understood": "Got it"
+  },
+  "seo": {
+    "locale": "en_US",
+    "home": {
+      "title": "Skillentis — Developer Evolution Platform",
+      "description": "GitHub shows activity. Skillentis reveals evolution. Transform your GitHub history into a Developer Evolution Profile. Proof of growth, not just skill.",
+      "ogTitle": "Skillentis — Developer Evolution Platform",
+      "ogDescription": "See how a developer evolves — not just what they know today."
+    },
+    "leaderboard": {
+      "title": "Developer Ranking — Skillentis"
+    },
+    "compare": {
+      "title": "Compare Developers — Skillentis"
+    },
+    "settings": {
+      "title": "Settings — Skillentis",
+      "description": "Manage your Skillentis account, GitHub username, profile visibility and subscription."
+    },
+    "auth": {
+      "login": "Sign in — Skillentis",
+      "signup": "Create account — Skillentis",
+      "forgot": "Reset password — Skillentis",
+      "verify": "Verify your email — Skillentis",
+      "description": "Sign in to Skillentis to analyze GitHub developers, track evolution, and unlock your Developer Evolution Profile."
+    },
+    "resetPassword": {
+      "title": "Reset password — Skillentis",
+      "description": "Reset your Skillentis account password securely."
+    },
+    "dashboard": {
+      "analyzing": "Analyzing {{username}} — Skillentis",
+      "failed": "Analysis failed — Skillentis",
+      "profileTitle": "{{name}} — Skillentis",
+      "profileDescription": "{{name}}'s Developer Evolution Profile on Skillentis. Codexa Index, milestones and growth as a developer."
+    },
+    "publicProfile": {
+      "title": "{{name}} — Skillentis Evolution Profile",
+      "description": "See how {{name}} evolves as a developer: Codexa Index, milestones and sustained growth.",
+      "notFound": "Profile not found — Skillentis",
+      "loading": "Loading profile — Skillentis"
+    }
+  }
+}

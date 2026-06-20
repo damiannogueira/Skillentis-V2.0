@@ -1,0 +1,612 @@
+{
+  "common": {
+    "back": "Volver",
+    "backHome": "Volver al inicio",
+    "loading": "Cargando...",
+    "error": "Error",
+    "close": "Cerrar",
+    "save": "Guardar",
+    "saving": "Guardando...",
+    "saved": "Guardado",
+    "comingSoon": "Próximamente",
+    "analyses": "análisis",
+    "years": "años",
+    "repos": "repos"
+  },
+  "errors": {
+    "invalidUsername": "Usuario de GitHub inválido. Solo letras, números y guiones (sin puntos ni espacios), máx. 39 caracteres."
+  },
+  "notifications": {
+    "bell": {
+      "title": "Notificaciones",
+      "empty": "No tienes notificaciones",
+      "markAllRead": "Marcar todas como leídas"
+    },
+    "analysisComplete": "Análisis de @{{username}} completado",
+    "analysisFailed": "El análisis de @{{username}} falló",
+    "viewAction": "Ver"
+  },
+  "nav": {
+    "features": "Características",
+    "compare": "Comparar",
+    "ranking": "Ranking",
+    "demo": "Demo",
+    "pricing": "Precios",
+    "settings": "Ajustes",
+    "signIn": "Entrar",
+    "signOut": "Salir",
+    "install": "Instalar",
+    "language": "Idioma"
+  },
+  "hero": {
+    "badge": "Plataforma de Evolución de Desarrolladores",
+    "titleA": "GitHub muestra actividad.",
+    "titleB": "Skillentis revela evolución.",
+    "subtitle": "Descubre cómo evoluciona un desarrollador, no solo lo que sabe hoy.",
+    "placeholder": "Introduce un usuario de GitHub",
+    "ctaSignIn": "Entrar y Analizar",
+    "ctaAnalyze": "Analizar",
+    "usageWithLimit": "{{used}}/{{limit}} análisis usados este mes · Plan Free",
+    "usageUnlimited": "Análisis ilimitados · Plan Pro",
+    "usageGuest": "Regístrate gratis · 1 análisis/mes · Repos públicos"
+  },
+  "home": {
+    "recentAnalysis": {
+      "title": "Tu análisis reciente",
+      "subtitle": "Continúa donde lo dejaste o vuelve a abrir un perfil ya analizado.",
+      "yourProfile": "Tú",
+      "viewBtn": "Ver análisis",
+      "limitTitle": "Has usado tu análisis del mes",
+      "limitSubtitle": "Pasa a Pro para análisis ilimitados, comparativas y perfiles públicos.",
+      "upgradeCta": "Mejorar a Pro",
+      "delete": "Eliminar del historial",
+      "deleteTitle": "¿Eliminar este análisis?",
+      "deleteDescription": "Se quitará @{{username}} de tu historial. Esto no devuelve tu cupo mensual.",
+      "deleteConfirm": "Eliminar",
+      "deleteCancel": "Cancelar",
+      "deleteSuccess": "Análisis eliminado del historial",
+      "deleteError": "No se pudo eliminar. Inténtalo de nuevo."
+    },
+    "analyzeYourself": {
+      "badge": "Empieza por aquí",
+      "title": "Analiza tu propio perfil @{{username}}",
+      "subtitle": "Descubre tu Codexa Index, evolución y métricas en menos de un minuto.",
+      "cta": "Analizar mi perfil",
+      "connectTitle": "Conecta tu GitHub para empezar",
+      "connectSubtitle": "Añade tu usuario de GitHub en Ajustes para analizar tu propio perfil con un clic.",
+      "connectCta": "Ir a Ajustes"
+    }
+  },
+  "onboarding": {
+    "skip": "Saltar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "ctaAnalyze": "Analizar mi perfil",
+    "ctaConnect": "Conectar GitHub",
+    "s1": {
+      "title": "Bienvenido a Skillentis",
+      "body": "Visualiza la evolución real de cualquier desarrollador en GitHub. Te mostramos en 4 pasos cómo sacarle el máximo partido."
+    },
+    "s2": {
+      "title": "Conecta tu GitHub",
+      "body": "Añade tu usuario de GitHub en Ajustes para analizar tu propio perfil con un clic y desbloquear insignias."
+    },
+    "s3": {
+      "title": "Explora el ranking",
+      "body": "Descubre a los desarrolladores con mayor Codexa Index y compara tu posición en el leaderboard global."
+    },
+    "s4": {
+      "title": "Compara desarrolladores",
+      "body": "Elige dos perfiles y mira sus métricas y evolución lado a lado. Ideal para recruiters y equipos técnicos."
+    },
+    "s5": {
+      "title": "Comparte tu evolución",
+      "body": "Genera tu Evolution Card pública y compártela en LinkedIn, Twitter o cualquier red. Tu trayectoria habla por ti."
+    }
+  },
+  "problem": {
+    "titleA": "El problema con la",
+    "titleB": "evaluación tradicional",
+    "subtitle": "Las contrataciones siguen basándose en instantáneas. Pero el verdadero talento se ve en la trayectoria.",
+    "items": {
+      "resumes": {
+        "title": "Los CVs mienten",
+        "description": "Un CV muestra lo que alguien afirma. GitHub muestra lo que realmente construyó, pero nadie lee el historial."
+      },
+      "challenges": {
+        "title": "Los retos de código son instantáneas",
+        "description": "Un test de 2 horas mide rendimiento bajo presión, no años de aprendizaje constante."
+      },
+      "scores": {
+        "title": "Las puntuaciones generan desconfianza",
+        "description": "“¿Por qué debería confiar en esa puntuación?” Los números sin contexto parecen arbitrarios."
+      },
+      "talent": {
+        "title": "El talento es trayectoria",
+        "description": "La mejor señal de un gran desarrollador no es lo que sabe hoy, sino lo rápido que aprende y evoluciona."
+      }
+    }
+  },
+  "solution": {
+    "titleA": "La solución:",
+    "titleB": "Perfil de Evolución del Desarrollador",
+    "subtitle": "Skillentis transforma años de actividad en GitHub en un registro estructurado de evolución. No es un juicio, es evidencia.",
+    "flow": {
+      "data": "Datos de GitHub",
+      "engine": "Motor de Análisis",
+      "profile": "Perfil de Evolución"
+    },
+    "signals": {
+      "consistency": {
+        "label": "Consistencia",
+        "desc": "Contribuciones sostenidas en el tiempo"
+      },
+      "architecture": {
+        "label": "Arquitectura",
+        "desc": "Evolución de la complejidad del repo"
+      },
+      "scope": {
+        "label": "Alcance",
+        "desc": "Amplitud y profundidad del trabajo"
+      },
+      "collaboration": {
+        "label": "Colaboración",
+        "desc": "PRs, reviews, trabajo en equipo"
+      },
+      "practices": {
+        "label": "Prácticas",
+        "desc": "CI/CD, testing, documentación"
+      }
+    }
+  },
+  "features": {
+    "titleA": "No es una puntuación.",
+    "titleB": "Es un registro de evolución.",
+    "subtitle": "Skillentis analiza datos públicos de GitHub para detectar señales reales de desarrollo profesional.",
+    "items": {
+      "timeline": {
+        "title": "Línea de Tiempo de Evolución",
+        "description": "Observa cómo evolucionaron habilidades y prácticas año tras año a través del historial de repositorios."
+      },
+      "growth": {
+        "title": "Métricas de Crecimiento",
+        "description": "Sigue la consistencia, complejidad arquitectónica, alcance del proyecto y patrones de colaboración."
+      },
+      "consistency": {
+        "title": "Señales de Consistencia",
+        "description": "Detecta patrones de contribución y actividad de desarrollo sostenida en el tiempo."
+      },
+      "complexity": {
+        "title": "Complejidad del Repo",
+        "description": "Analiza cómo evolucionó la arquitectura desde scripts simples hasta sistemas complejos."
+      },
+      "collaboration": {
+        "title": "Patrones de Colaboración",
+        "description": "Comprende las señales de trabajo en equipo a través de PRs, reviews y proyectos colaborativos."
+      },
+      "codexa": {
+        "title": "Índice Codexa",
+        "description": "Una métrica resumen basada en años de evolución del repositorio, no un juicio instantáneo."
+      }
+    }
+  },
+  "evolutionPreview": {
+    "titleA": "Visualiza el",
+    "titleB": "crecimiento del desarrollador",
+    "subtitle": "La evolución se ve cuando observas la trayectoria.",
+    "header": "Línea de Tiempo de Evolución",
+    "headerSub": "Basado en 5 años de actividad en GitHub",
+    "years": {
+      "2020": "Primeros repositorios",
+      "2021": "Commits constantes",
+      "2022": "Trabajo multi-proyecto",
+      "2023": "Patrones arquitectónicos",
+      "2024": "Prácticas de producción",
+      "2025": "Pensamiento a nivel de sistema"
+    }
+  },
+  "publicProfileSection": {
+    "titleA": "Tu perfil público",
+    "titleB": "de desarrollador",
+    "description": "Cada desarrollador obtiene una página de perfil compartible en {{url}}. Es tu historia de evolución, visible para todos.",
+    "items": {
+      "share": "Compártelo en LinkedIn, Twitter o WhatsApp con un clic",
+      "linkedin": "Añádelo a tu CV, portfolio o README de GitHub",
+      "download": "Descárgalo como PNG o PDF para usarlo donde quieras",
+      "public": "URL pública, sin login para visualizar"
+    },
+    "preview": {
+      "name": "Linus Torvalds",
+      "meta": "@torvalds · 7 repos · 15 años",
+      "codexa": "Índice Codexa"
+    }
+  },
+  "codexa": {
+    "titleA": "El",
+    "titleB": "Índice Codexa",
+    "intro": "Un único número que resume años de evolución del desarrollador. No es un juicio, es una síntesis ponderada de señales reales de crecimiento.",
+    "summary": "El Índice Codexa siempre es secundario. La historia importa más que el número.",
+    "label": "Índice Codexa",
+    "basedOn": "Basado en 16 años de evolución del repositorio",
+    "components": {
+      "consistency": {
+        "label": "Consistencia",
+        "desc": "Frecuencia de commits, repos mantenidos, longevidad"
+      },
+      "evolution": {
+        "label": "Evolución del Proyecto",
+        "desc": "Stars, proyectos mantenidos, distribución temporal"
+      },
+      "architecture": {
+        "label": "Arquitectura",
+        "desc": "Diversidad de lenguajes, complejidad del repo"
+      },
+      "collaboration": {
+        "label": "Colaboración",
+        "desc": "PRs, reviews, forks, discusión en issues"
+      },
+      "practices": {
+        "label": "Prácticas",
+        "desc": "Documentación, topics, señales de CI/CD"
+      }
+    }
+  },
+  "evolutionCard": {
+    "titleA": "Tu",
+    "titleB": "Tarjeta de Evolución",
+    "subtitle": "Comparte tu historia de crecimiento en LinkedIn, tu CV o README de GitHub.",
+    "linuxCreator": "Creador de Linux",
+    "metrics": {
+      "consistency": "Consistencia",
+      "architecture": "Crecimiento Arquitectónico",
+      "evolution": "Evolución del Proyecto",
+      "collaboration": "Colaboración"
+    },
+    "codexa": "Índice Codexa",
+    "footer": "Basado en 3 años de actividad en GitHub · skillentis.app"
+  },
+  "stats": {
+    "badge": "Prueba social",
+    "title": "La comunidad ya está creciendo",
+    "totalAnalyses": "Análisis realizados",
+    "developers": "Developers analizados",
+    "thisWeek": "Esta semana"
+  },
+  "topDevelopers": {
+    "trending": "Tendencia",
+    "title": "Top 5 Developers",
+    "subtitle": "Los perfiles más analizados en Skillentis",
+    "empty": "Aún no hay desarrolladores analizados",
+    "viewFull": "Ver ranking completo",
+    "youBadge": "Tú"
+  },
+  "cta": {
+    "titleA": "Analiza tu",
+    "titleB": "evolución en GitHub",
+    "subtitle": "Introduce tu usuario de GitHub y descubre tu historia de crecimiento.",
+    "footerAuth": "Repos públicos · Dashboard de evolución",
+    "footerGuest": "Regístrate gratis · 1 análisis/mes"
+  },
+  "footer": {
+    "tagline": "Prueba de crecimiento técnico."
+  },
+  "auth": {
+    "back": "Volver",
+    "login": "Iniciar sesión",
+    "signup": "Crear cuenta",
+    "forgot": "Recuperar contraseña",
+    "loginSubtitle": "Inicia sesión en tu cuenta",
+    "signupSubtitle": "Crea tu cuenta gratuita",
+    "forgotSubtitle": "Recupera tu contraseña",
+    "email": "Email",
+    "emailPlaceholder": "tu@email.com",
+    "password": "Contraseña",
+    "passwordPlaceholder": "••••••••",
+    "passwordMin": "Mínimo 8 caracteres",
+    "confirmPassword": "Confirmar contraseña",
+    "confirmPlaceholder": "Repite tu contraseña",
+    "forgotLink": "¿Olvidaste tu contraseña?",
+    "sendLink": "Enviar enlace",
+    "noAccount": "¿No tienes cuenta?",
+    "signupFree": "Regístrate gratis",
+    "haveAccount": "¿Ya tienes cuenta?",
+    "loginAction": "Inicia sesión",
+    "freePlan": "Plan Free incluye:",
+    "freeIncludes1": "1 análisis de GitHub al mes",
+    "freeIncludes2": "Dashboard de evolución básico",
+    "upgradeNote": "Upgrade a Pro para análisis ilimitados, comparación y perfil público",
+    "verifyTitle": "Verifica tu email",
+    "emailSentTitle": "Email enviado",
+    "verifyDesc": "Hemos enviado un enlace de confirmación a tu correo. Verifica tu email para activar tu cuenta.",
+    "forgotDesc": "Te enviamos un enlace para restablecer tu contraseña.",
+    "backToLogin": "Volver al login",
+    "errors": {
+      "loginTitle": "Error al iniciar sesión",
+      "signupTitle": "Error al registrarse",
+      "weakPassword": "Contraseña débil",
+      "weakPasswordDesc": "Mínimo 8 caracteres",
+      "passwordsMismatch": "Las contraseñas no coinciden"
+    }
+  },
+  "resetPassword": {
+    "title": "Nueva contraseña",
+    "newPassword": "Nueva contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "passwordPlaceholder": "Mínimo 8 caracteres",
+    "confirmPlaceholder": "Repite tu contraseña",
+    "submit": "Actualizar contraseña",
+    "invalidLink": "Enlace inválido o expirado.",
+    "weakPassword": "Contraseña débil",
+    "weakDesc": "Mínimo 8 caracteres",
+    "mismatch": "Las contraseñas no coinciden",
+    "updated": "Contraseña actualizada"
+  },
+  "settings": {
+    "title": "Ajustes",
+    "subtitle": "Conecta tu cuenta de GitHub para aparecer destacado en el ranking",
+    "githubLabel": "Username de GitHub",
+    "placeholder": "ej: torvalds",
+    "hint": "Tu posición se resaltará en el leaderboard si has sido analizado.",
+    "savedToast": "Username de GitHub guardado",
+    "errorToast": "No se pudo guardar",
+    "myAnalyses": "Mis análisis recientes",
+    "myAnalysesEmpty": "Aún no has analizado ningún perfil.",
+    "viewAnalysis": "Ver análisis",
+    "privacy": {
+      "title": "Privacidad",
+      "publicProfile": "Perfil público",
+      "publicProfileDesc": "Permite que cualquiera vea tu análisis en {{url}}. Desactívalo para ocultarlo.",
+      "urlLabel": "Tu URL pública",
+      "copyUrl": "Copiar URL",
+      "openProfile": "Abrir perfil",
+      "urlCopied": "URL copiada al portapapeles",
+      "needsGithub": "Conecta tu usuario de GitHub arriba para activar tu perfil público.",
+      "savedPublic": "Perfil público activado",
+      "savedPrivate": "Perfil privado activado",
+      "saveError": "No se pudo actualizar la privacidad"
+    }
+  },
+  "badges": {
+    "title": "Logros",
+    "yourBadges": "Tus logros",
+    "userBadges": "Logros desbloqueados",
+    "unlocked": "¡Nuevo logro desbloqueado!",
+    "noBadges": "Aún no tienes logros. ¡Empieza analizando un perfil!"
+  },
+  "leaderboard": {
+    "title": "Top Developers",
+    "subtitle": "Los perfiles de GitHub más analizados en la plataforma",
+    "badge": "Ranking en vivo",
+    "periods": {
+      "week": "Última semana",
+      "month": "Último mes",
+      "all": "Todos"
+    },
+    "empty": "Aún no hay datos",
+    "emptyHint": "Analiza un perfil para iniciar el ranking",
+    "yourPosition": "Tu posición:",
+    "withAnalyses": "con {{count}} análisis",
+    "notInRanking": "Aún no apareces en el ranking. ¡Pide que te analicen!",
+    "youBadge": "Tú"
+  },
+  "compare": {
+    "title": "Comparar Evolución",
+    "badge": "Comparación de Desarrolladores",
+    "subtitle": "Introduce dos perfiles de GitHub para comparar su evolución lado a lado.",
+    "developer": "Desarrollador",
+    "analyzing": "Analizando...",
+    "skillsRadar": "Radar de Habilidades",
+    "topLanguages": "Top Lenguajes",
+    "codexaDelta": "Δ Codexa",
+    "proOnly": "Función Pro",
+    "proDesc": "La comparación lado a lado está disponible en el plan Pro.",
+    "viewPlans": "Ver planes",
+    "feature": "Comparación de desarrolladores",
+    "metrics": {
+      "consistency": "Consistencia",
+      "architecture": "Arquitectura",
+      "scope": "Alcance del Proyecto",
+      "collaboration": "Colaboración",
+      "practices": "Prácticas"
+    }
+  },
+  "dashboard": {
+    "queued": "En cola",
+    "analyzing": "Analizando",
+    "processing": "Procesando",
+    "finalizing": "Finalizando",
+    "retrying": "Reintentando",
+    "fetching": "Obteniendo datos de GitHub y calculando métricas",
+    "failedTitle": "Análisis Fallido",
+    "tryAnother": "Probar con otro usuario",
+    "errorUserNotFound": "Usuario no encontrado",
+    "errorUserNotFoundDesc": "El usuario @{{username}} no existe en GitHub. Revisa que esté bien escrito (sin puntos, sin espacios).",
+    "errorRateLimit": "Límite de peticiones de GitHub",
+    "errorRateLimitDesc": "GitHub está limitando las peticiones temporalmente. Inténtalo de nuevo en unos minutos.",
+    "fixInSettings": "Corregir en Ajustes",
+    "unknownError": "Error desconocido",
+    "copyLink": "Copiar enlace",
+    "linkCopied": "¡Enlace copiado!",
+    "linkCopiedDesc": "Comparte tu perfil de evolución donde quieras.",
+    "export": "Exportar",
+    "downloadedTitle": "¡Tarjeta descargada!",
+    "exportFailed": "Error al exportar",
+    "yourCard": "Tu Tarjeta de Evolución",
+    "timelineTitle": "Línea de Tiempo del Desarrollador",
+    "showEarlier": "Mostrar {{count}} años anteriores",
+    "collapseTimeline": "Colapsar línea de tiempo",
+    "metrics": {
+      "consistency": "Consistencia",
+      "architecture": "Arquitectura",
+      "scope": "Alcance del Proyecto",
+      "collaboration": "Colaboración",
+      "practices": "Prácticas"
+    },
+    "codexa": "Índice Codexa",
+    "basedOn": "Basado en {{years}} años",
+    "yearsOnGithub": "años en GitHub",
+    "viewPublicProfile": "Ver mi perfil público",
+    "publicProfileHint": "Comparte tu evolución con un solo enlace"
+  },
+  "publicProfile": {
+    "loading": "Cargando perfil...",
+    "notFound": "Perfil no encontrado",
+    "notFoundDesc": "No se pudo cargar este perfil.",
+    "discover": "Descubre tu evolución",
+    "fullDashboard": "Dashboard Completo",
+    "yourCard": "Tu Tarjeta de Evolución",
+    "shareTitle": "Comparte tu evolución",
+    "copyLink": "Copiar Enlace",
+    "downloadPng": "Descargar PNG",
+    "downloadPdf": "Descargar PDF",
+    "discoverYours": "Descubre tu propia evolución",
+    "analyzeGithub": "Analizar tu GitHub",
+    "poweredBy": "Powered by Skillentis · Prueba de crecimiento, no solo de habilidad.",
+    "linkCopied": "¡Enlace copiado!",
+    "linkCopiedDesc": "Comparte tu perfil de evolución donde quieras.",
+    "downloadedDesc": "Compártela en LinkedIn, tu CV o README de GitHub.",
+    "repositories": "repositorios",
+    "codexa": "Índice Codexa",
+    "basedOn": "Basado en {{years}} años de evolución en GitHub",
+    "privateTitle": "Este perfil es privado",
+    "privateDesc": "El propietario ha desactivado la visibilidad pública de su análisis.",
+    "watermarkText": "Generado en Skillentis",
+    "watermarkCta": "Crea tu perfil gratis"
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Ups, página no encontrada",
+    "back": "Volver al inicio"
+  },
+  "upgrade": {
+    "title": "Mejora tu plan",
+    "requires": "{{feature}} requiere un plan superior",
+    "perMonth": "/mes",
+    "viewPlans": "Ver todos los planes",
+    "pro": {
+      "name": "Pro",
+      "f1": "Análisis ilimitados",
+      "f2": "Comparación lado a lado",
+      "f3": "Perfil público",
+      "f4": "Export PDF/PNG"
+    },
+    "recruiter": {
+      "name": "Recruiter",
+      "f1": "Todo de Pro",
+      "f2": "Análisis masivo",
+      "f3": "Exportar reportes",
+      "f4": "Guardar candidatos"
+    }
+  },
+  "pricing": {
+    "seoTitle": "Precios — Skillentis",
+    "seoDesc": "Planes Skillentis: Free, Pro y Pro Recruiter. Análisis ilimitados desde $9/mes con 7 días de prueba gratis.",
+    "titleA": "Planes simples,",
+    "titleB": "crecimiento real",
+    "subtitle": "Empieza gratis, mejora cuando lo necesites. 7 días de prueba en cualquier plan mensual.",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "save": "Ahorra 17%",
+    "popular": "Más popular",
+    "perMonth": "/mes",
+    "perYear": "/año",
+    "currentPlan": "Plan actual",
+    "manage": "Gestionar suscripción",
+    "startFree": "Empezar gratis",
+    "startTrial": "Probar 7 días gratis",
+    "trialNote": "7 días gratis · Cancela cuando quieras",
+    "footnote": "Pagos seguros procesados por Paddle. Acepta tarjetas de crédito y PayPal. Puedes cancelar tu suscripción en cualquier momento desde tu cuenta.",
+    "free": {
+      "name": "Free",
+      "desc": "Para descubrir Skillentis y analizar tu primer perfil.",
+      "f1": "1 análisis al mes",
+      "f2": "Dashboard de evolución básico",
+      "f3": "Perfil público compartible"
+    },
+    "pro": {
+      "name": "Pro",
+      "desc": "Para desarrolladores que quieren analizar y comparar sin límites.",
+      "f1": "Análisis ilimitados",
+      "f2": "Comparación de desarrolladores",
+      "f3": "Exportar PNG y PDF",
+      "f4": "Badges premium",
+      "f5": "Soporte prioritario"
+    },
+    "recruiter": {
+      "name": "Pro Recruiter",
+      "desc": "Para equipos de hiring que evalúan talento técnico a escala.",
+      "f1": "Todo lo del plan Pro",
+      "f2": "Análisis masivo de candidatos",
+      "f3": "Notas privadas y candidatos guardados",
+      "f4": "Exportar reportes en CSV",
+      "f5": "Acceso anticipado a nuevas features"
+    }
+  },
+  "subscription": {
+    "title": "Suscripción",
+    "currentPlan": "Plan actual",
+    "freeDesc": "Estás en el plan Free. Mejora a Pro para análisis ilimitados, comparación y más.",
+    "viewPlans": "Ver planes",
+    "managePortal": "Gestionar suscripción",
+    "renewsOn": "Se renueva el {{date}}",
+    "endsOn": "Acceso hasta el {{date}}"
+  },
+  "offline": {
+    "message": "Sin conexión, mostrando datos en caché"
+  },
+  "installPwa": {
+    "title": "Instalar Skillentis",
+    "iosSubtitle": "Añade la app a tu pantalla de inicio",
+    "defaultSubtitle": "Accede más rápido desde tu dispositivo",
+    "iosCta": "Ver instrucciones",
+    "defaultCta": "Instalar app",
+    "iosTitle": "Añadir a inicio (iOS)",
+    "iosRequired": "Safari requerido",
+    "step1": "Toca el botón <strong>Compartir</strong> en la barra inferior de Safari",
+    "step2": "Desplázate y toca <strong>“Añadir a pantalla de inicio”</strong>",
+    "step3": "Toca <strong>Añadir</strong> en la esquina superior derecha",
+    "understood": "Entendido"
+  },
+  "seo": {
+    "locale": "es_ES",
+    "home": {
+      "title": "Skillentis — Plataforma de Evolución de Desarrolladores",
+      "description": "GitHub muestra actividad. Skillentis revela evolución. Convierte tu historial de GitHub en un Perfil de Evolución del Desarrollador. Prueba de crecimiento, no solo de habilidad.",
+      "ogTitle": "Skillentis — Plataforma de Evolución de Desarrolladores",
+      "ogDescription": "Descubre cómo evoluciona un desarrollador, no solo lo que sabe hoy."
+    },
+    "leaderboard": {
+      "title": "Ranking de Desarrolladores — Skillentis"
+    },
+    "compare": {
+      "title": "Comparar Desarrolladores — Skillentis"
+    },
+    "settings": {
+      "title": "Ajustes — Skillentis",
+      "description": "Gestiona tu cuenta de Skillentis, usuario de GitHub, visibilidad del perfil y suscripción."
+    },
+    "auth": {
+      "login": "Iniciar sesión — Skillentis",
+      "signup": "Crear cuenta — Skillentis",
+      "forgot": "Recuperar contraseña — Skillentis",
+      "verify": "Verifica tu correo — Skillentis",
+      "description": "Inicia sesión en Skillentis para analizar desarrolladores de GitHub y desbloquear tu Perfil de Evolución."
+    },
+    "resetPassword": {
+      "title": "Restablecer contraseña — Skillentis",
+      "description": "Restablece la contraseña de tu cuenta de Skillentis de forma segura."
+    },
+    "dashboard": {
+      "analyzing": "Analizando {{username}} — Skillentis",
+      "failed": "Análisis fallido — Skillentis",
+      "profileTitle": "{{name}} — Skillentis",
+      "profileDescription": "Perfil de Evolución de {{name}} en Skillentis. Codexa Index, hitos y crecimiento como desarrollador."
+    },
+    "publicProfile": {
+      "title": "{{name}} — Perfil de Evolución en Skillentis",
+      "description": "Mira la evolución de {{name}} como desarrollador: Codexa Index, hitos y crecimiento sostenido.",
+      "notFound": "Perfil no encontrado — Skillentis",
+      "loading": "Cargando perfil — Skillentis"
+    }
+  }
+}
