@@ -141,6 +141,7 @@ The long-term goal is to build a system that highlights **technical growth**, no
 
 **Damian Nogueira**  
 Software Development Student — UTN
+Frontend AI Engineering  — FlyRank AI
 
 GitHub  
 https://github.com/damiannogueira
