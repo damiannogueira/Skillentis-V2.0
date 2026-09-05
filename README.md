@@ -147,7 +147,7 @@ GitHub
 https://github.com/damiannogueira
 
 LinkedIn  
-https://www.linkedin.com/in/damián-ignacio-nogueira-a8446b353/
+linkedin.com/in/damian-nogueira/
 
 ---
 
